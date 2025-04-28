@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameVault - Login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>GameVault</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+        </ul>
+    </nav>
+</header>
+
+<mainlogin>
+    <h2>Login</h2>
+    <form class="login-form">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <div class="form-options">
+            <label>
+                <input type="checkbox" name="remember-me"> Remember Me
+            </label>
+            <a href="forgot-password.html" class="forgot-password">Forgot Password?</a>
+        </div>
+
+        <button type="submit">Login</button>
+    </form>
+</mainlogin>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
